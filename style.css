@@ -90,16 +90,18 @@ body {
 }
 ul.nav {
   font-family: Raleway;
+  padding-left: 0;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
   /* works with row or column */
   flex-direction: row;
+  margin-left: 0;
   font-size: 14pt;
   list-style: none;
 }
 ul.nav li {
-  margin-left: 0px;
+  padding: 0 20px;
 }
 ul.nav li a {
   color: #ccc;
