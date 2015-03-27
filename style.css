@@ -222,6 +222,13 @@ img.icon {
 .columns .column {
   margin: 10px;
 }
+.mugshot {
+  border-radius: 171px;
+  width: 171px;
+}
+.column ul {
+  text-align: left;
+}
 
 .beaker,
 .liquid,
