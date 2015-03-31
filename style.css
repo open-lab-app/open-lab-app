@@ -121,7 +121,7 @@ ul.nav li a:hover {
 }
 .invite-request {
   position: absolute;
-  top: 920px;
+  top: 940px;
   width: 400px;
   left: 50%;
   margin-left: -200px;
@@ -136,7 +136,7 @@ ul.nav li a:hover {
   text-align: center;
   font-family: Raleway;
 }
-.invite-request button {
+.invite-request .request {
   cursor: hand;
   cursor: pointer;
   font-family: Raleway;
