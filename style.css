@@ -48,10 +48,10 @@ body {
 }
 @media screen and (max-width: 767px) {
   .hero {
-    height: 600px;
+    height: 400px;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .hero {
     height: 700px;
   }
@@ -146,6 +146,11 @@ ul.nav li a:hover {
   text-align: center;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 767px) {
+  .lead {
+    font-size: 18pt;
+  }
+}
 .invite-request {
   margin-top: 40px;
   width: 100%;
@@ -211,22 +216,13 @@ img.icon {
   margin-top: 100px;
   text-align: center;
 }
+@media screen and (max-width: 767px) {
+  .logo-cont {
+    margin-top: 30px;
+  }
+}
 .logo-cont img {
   width: 100%;
-}
-.logo-cont svg {
-  -webkit-filter: drop-shadow(0 0 2px #333333);
-  filter: drop-shadow(0 0 2px #333333);
-  /* Same syntax as box-shadow */
-  width: 650px;
-  margin: auto;
-  height: 120px;
-  fill: white;
-}
-@media screen and (max-width: 768px) {
-  .logo-cont svg {
-    scale: 0.7;
-  }
 }
 .logo-nav {
   width: 125px;
