@@ -56,6 +56,9 @@ body {
     height: 700px;
   }
 }
+.right {
+  margin-left: auto !important;
+}
 video#banner {
   display: inline-block;
   width: 100%;
